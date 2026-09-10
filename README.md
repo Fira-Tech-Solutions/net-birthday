@@ -1,20 +1,42 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 🌸 Happy Birthday Net
 
-# Run and deploy your AI Studio app
+A golden-hour birthday & Ethiopian New Year (Enkutatash) celebration page for Net.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/fa66b360-95b4-44c3-8005-69d20a99b9b3
+- Full-screen hero with parallax scroll-over effect
+- Intro countdown animation (3→2→1 → blast → reveal)
+- Floating Adey Abeba gift button with countdown + photo carousel
+- Auto-playing music (Elohim)
+- Drifting Adey Abeba petals
+- Love letter section with candle interaction
+- Responsive design (mobile-first)
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
-
+**Prerequisites:** Node.js
 
 1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+   ```bash
+   npm install
+   ```
+2. Run the app:
+   ```bash
+   npm run dev
+   ```
+
+## Deploy to Vercel
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Fira-Tech-Solutions/net-birthday)
+
+Or manually:
+
+```bash
+npx vercel
+```
+
+## Tech Stack
+
+- React 19 + TypeScript
+- Vite
+- Tailwind CSS v4
