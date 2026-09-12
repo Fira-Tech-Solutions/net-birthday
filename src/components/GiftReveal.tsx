@@ -5,8 +5,8 @@ type GiftPhase = 'idle' | 'countdown' | 'blast' | 'reveal';
 const giftImages = [
   { src: '/photo_2026-09-13_01-03-36.jpg', alt: 'Gift photo 1' },
   { src: '/photo_2026-09-13_01-03-27.jpg', alt: 'Gift photo 2' },
-  { src: '/photo_2026-09-13_01-03-29.jpg', alt: 'Gift photo 3' },
-  { src: '/photo_2026-09-13_01-03-31.jpg', alt: 'Gift photo 4' },
+  { src: '/photo_2026-09-13_01-03-31.jpg', alt: 'Gift photo 3' },
+  { src: '/photo_2026-09-13_01-03-29.jpg', alt: 'Gift photo 4' },
 ];
 
 export function GiftReveal() {
