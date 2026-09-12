@@ -32,38 +32,38 @@ export function LoveLetter() {
                 <span className="material-symbols-outlined text-white text-xl">favorite</span>
               </div>
               <div>
-                <div className="text-base font-semibold text-[#2B2B2B]" style={{ fontFamily: "'Playfair Display', serif" }}>My Dearest Net</div>
-                <div className="text-xs text-[#2B2B2B]/40">Written on the dawn of Meskerem 1</div>
+                <div className="text-base font-semibold text-[#2B2B2B]" style={{ fontFamily: "'Playfair Display', serif" }}>My Dearest Kiya</div>
+                <div className="text-xs text-[#2B2B2B]/40">Written with all my heart</div>
               </div>
             </div>
 
             <div className="space-y-6 text-[#2B2B2B]/70 leading-relaxed text-[15px] md:text-base">
               <p>
-                They say that when the yellow Adey Abeba blooms across our highlands, it is heaven's seal that dark storms have passed and peace has returned to the soil. But for me, you were that golden flower long before September arrived.
+                Kiya, every time I see you smile, the world feels a little warmer, a little brighter. You have this way of making even the simplest moments feel extraordinary — like the sun decided to shine just for us.
               </p>
               <p>
-                Today, while all of Ethiopia sings of new beginnings — crisp grass spread upon living room floors, the fragrance of freshly brewed Buna filling every home — my whole heart sings for the day you took your first breath.
+                I want you to know that you are the reason I believe in beautiful things. Your laughter is my favorite sound, your happiness is my greatest wish, and being beside you is where I always want to be.
               </p>
               <p>
-                You make life feel like warm morning sunlight pouring through white woven cotton curtains. You bring quiet strength to my noisy days, and your laughter is the soundtrack I want to carry across every chapter of my life.
+                You deserve all the love in the world, and I promise to spend every day making sure you feel it. Thank you for being you — for being my peace, my joy, and my favorite person.
               </p>
 
               <div className="my-8 py-6 px-6 md:px-8 bg-[#990011]/5 rounded-xl border border-[#990011]/10 text-center space-y-3">
                 <p className="text-lg md:text-xl text-[#990011] font-medium" style={{ fontFamily: "'Playfair Display', serif" }}>
-                  መልካም ልደት ላንቺ ይሁን!
+                  Happy Birthday, Kiya!
                 </p>
                 <p className="text-base md:text-lg text-[#990011]/80 italic" style={{ fontFamily: "'Playfair Display', serif" }}>
-                  አዲሱ ዓመት የሰላምና የፍቅር ይሁንልን!
+                  You are loved more than words could ever say.
                 </p>
               </div>
 
               <p className="text-base md:text-lg text-[#990011] italic font-medium" style={{ fontFamily: "'Playfair Display', serif" }}>
-                "Happy Birthday, and Melkam Enkutatash, my love. May this year shower you with all the honeyed peace, glowing health, and boundless joy you so effortlessly give to everyone around you."
+                "May this year bring you all the happiness your heart can hold. May every dream you carry come true, and may you always know how deeply you are cherished."
               </p>
 
               <div className="pt-6 text-right space-y-1">
-                <div className="text-base text-[#2B2B2B]/50 italic" style={{ fontFamily: "'Playfair Display', serif" }}>Yours always &amp; across every year,</div>
-                <div className="text-xs font-medium tracking-widest uppercase text-[#2B2B2B]/40">With all my devotion</div>
+                <div className="text-base text-[#2B2B2B]/50 italic" style={{ fontFamily: "'Playfair Display', serif" }}>Forever and always yours,</div>
+                <div className="text-xs font-medium tracking-widest uppercase text-[#2B2B2B]/40">With all my love</div>
               </div>
             </div>
           </div>
@@ -88,7 +88,7 @@ export function LoveLetter() {
               </button>
               <div>
                 <div className="text-sm font-semibold text-[#2B2B2B]">Light a Birthday Candle</div>
-                <div className="text-xs text-[#2B2B2B]/40">Offer a blessing of light to her new year</div>
+                <div className="text-xs text-[#2B2B2B]/40">Send a wish of love her way</div>
               </div>
             </div>
             <div className="flex items-center gap-2 bg-white px-4 py-2 rounded-full shadow-sm border border-[#990011]/10">

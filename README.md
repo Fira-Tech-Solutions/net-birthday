@@ -1,6 +1,6 @@
-# 🌸 Happy Birthday Net
+# 🌸 Happy Birthday Kiya
 
-A golden-hour birthday & Ethiopian New Year (Enkutatash) celebration page for Net.
+A golden-hour birthday celebration page for Kiya.
 
 ## Features
 

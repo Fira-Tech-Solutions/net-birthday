@@ -84,7 +84,7 @@ export function IntroAnimation({ onComplete }: { onComplete: () => void }) {
       {phase === 'countdown' && (
         <div className="relative flex flex-col items-center gap-6 z-10">
           <div className="text-[#FCF6F5]/70 text-xs md:text-sm tracking-[0.35em] uppercase font-medium">
-            እንቁጣጣሽ · Her Day Begins
+            Her Day Begins
           </div>
 
           <div className="relative w-40 h-40 md:w-52 md:h-52 flex items-center justify-center">
@@ -113,7 +113,7 @@ export function IntroAnimation({ onComplete }: { onComplete: () => void }) {
           </div>
 
           <div className="text-[#FCF6F5]/50 text-sm md:text-base italic" style={{ fontFamily: "'Playfair Display', serif" }}>
-            Happy Birthday, Net
+            Happy Birthday, Kiya
           </div>
         </div>
       )}
@@ -170,10 +170,10 @@ export function IntroAnimation({ onComplete }: { onComplete: () => void }) {
                 textShadow: '0 0 40px rgba(153,0,17,0.5), 0 4px 20px rgba(0,0,0,0.3)',
               }}
             >
-              Net
+              Kiya
             </h1>
             <p className="text-[#FCF6F5]/50 text-sm md:text-base mt-2 italic" style={{ fontFamily: "'Playfair Display', serif" }}>
-              Your golden year has arrived
+              Your special day has arrived
             </p>
           </div>
         </div>

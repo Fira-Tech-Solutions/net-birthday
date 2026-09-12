@@ -3,7 +3,7 @@ export function Hero() {
     <section className="relative h-dvh overflow-hidden" style={{ position: 'sticky', top: 0, zIndex: 0 }}>
       <img
         src="/photo_2026-09-10_18-10-33.jpg"
-        alt="Net"
+        alt="Kiya"
         className="absolute inset-0 w-full h-full object-cover"
       />
 
@@ -16,12 +16,12 @@ export function Hero() {
       <div className="absolute inset-0 flex flex-col items-center justify-end text-center px-6 pb-20 md:pb-24 z-10">
         <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/15 mb-6">
           <span className="material-symbols-outlined text-[#FCF6F5] text-sm" style={{ fontVariationSettings: "'FILL' 1" }}>celebration</span>
-          <span className="text-xs font-medium tracking-[0.2em] uppercase text-[#FCF6F5]/80">Happy Birthday &amp; Happy New Year</span>
+          <span className="text-xs font-medium tracking-[0.2em] uppercase text-[#FCF6F5]/80">Happy Birthday</span>
           <span className="material-symbols-outlined text-[#FCF6F5] text-sm" style={{ fontVariationSettings: "'FILL' 1" }}>celebration</span>
         </div>
 
         <h1 className="font-display-lg text-[72px] md:text-[100px] leading-none text-white tracking-tight drop-shadow-2xl mb-2" style={{ fontFamily: "'Playfair Display', serif", fontStyle: 'italic' }}>
-          Net
+          Kiya
         </h1>
 
         <p className="font-headline-md text-headline-md md:text-headline-lg text-white/75 italic font-normal mb-3" style={{ fontFamily: "'Playfair Display', serif" }}>
@@ -29,7 +29,7 @@ export function Hero() {
         </p>
 
         <p className="text-sm md:text-base text-white/60 max-w-md font-light leading-relaxed mb-8">
-          Some souls bring their own light — you turned every season into our golden hour. እንቁጣጣሽ.
+          Some souls bring their own light — you make every moment feel like golden hour.
         </p>
       </div>
 

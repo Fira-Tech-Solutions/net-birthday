@@ -214,10 +214,10 @@ export function GiftReveal() {
                 <div className="relative px-6 pt-6 pb-4 text-center shrink-0">
                   <p className="text-[#c41425] text-xs tracking-[0.2em] uppercase font-medium mb-1">A Gift For You</p>
                   <h3 className="text-[#FCF6F5] text-xl font-semibold" style={{ fontFamily: "'Playfair Display', serif", fontStyle: 'italic' }}>
-                    Happy Birthday
+                    Happy Birthday, Kiya
                   </h3>
                   <p className="text-[#FCF6F5]/40 text-sm mt-1" style={{ fontFamily: "'Playfair Display', serif" }}>
-                    መልካም ልደት — With love, always
+                    With love, always
                   </p>
                 </div>
 
