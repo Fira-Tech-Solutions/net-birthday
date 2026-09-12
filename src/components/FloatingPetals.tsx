@@ -14,7 +14,7 @@ export function FloatingPetals() {
   const [petals, setPetals] = useState<Petal[]>([]);
 
   useEffect(() => {
-    const petalColors = ['#F59E0B', '#FBBF24', '#FCD34D', '#D97706'];
+    const petalColors = ['#990011', '#c41425', '#e8354a', '#7a000e', '#ff4d5e'];
     const petalCount = 20;
     const newPetals: Petal[] = [];
 
@@ -31,7 +31,6 @@ export function FloatingPetals() {
     }
     setPetals(newPetals);
 
-    // Inject falling keyframes dynamically if not present
     if (!document.getElementById('petal-keyframes')) {
       const styleTag = document.createElement('style');
       styleTag.id = 'petal-keyframes';
@@ -69,7 +68,7 @@ export function FloatingPetals() {
             borderRadius: '50% 50% 50% 0',
             opacity: Math.random() * 0.45 + 0.25,
             transform: `rotate(${petal.rotation}deg)`,
-            filter: 'drop-shadow(0 2px 4px rgba(217, 119, 6, 0.2))',
+            filter: 'drop-shadow(0 2px 4px rgba(153, 0, 17, 0.2))',
             animation: `fallPetal ${petal.duration}s infinite linear ${petal.delay}s`,
           }}
         />

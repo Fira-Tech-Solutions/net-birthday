@@ -14,14 +14,12 @@ export default function App() {
     document.body.style.overflow = '';
   }, []);
 
-  // Lock scroll during intro
   if (!introDone) {
     document.body.style.overflow = 'hidden';
   }
 
   return (
-    <div className="bg-stone-50 font-sans text-stone-800 antialiased">
-      {/* Main page — always rendered, sits behind intro */}
+    <div className="bg-[#FCF6F5] font-sans text-[#2B2B2B] antialiased">
       <div
         className="min-h-screen"
         style={{
@@ -33,18 +31,14 @@ export default function App() {
         <FloatingPetals />
         <main className="w-full">
           <Hero />
-          {/* Content scrolls over the sticky hero */}
-          <div className="relative z-10 bg-stone-50">
+          <div className="relative z-10 bg-[#FCF6F5]">
             <LoveLetter />
             <BlessingClose />
           </div>
         </main>
       </div>
 
-      {/* Floating gift button — always visible */}
       <GiftReveal />
-
-      {/* Intro overlay — mounts on top, removes itself when done */}
       {!introDone && <IntroAnimation onComplete={handleIntroComplete} />}
     </div>
   );
