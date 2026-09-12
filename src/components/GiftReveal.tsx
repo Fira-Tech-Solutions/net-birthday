@@ -3,11 +3,10 @@ import { useState, useRef, useEffect, useCallback } from 'react';
 type GiftPhase = 'idle' | 'countdown' | 'blast' | 'reveal';
 
 const giftImages = [
-  { src: '/photo_2026-09-10_23-04-08.jpg', alt: 'Gift photo 1' },
-  { src: '/photo_2026-09-10_23-04-12.jpg', alt: 'Gift photo 2' },
-  { src: '/photo_2026-09-10_23-04-15.jpg', alt: 'Gift photo 3' },
-  { src: '/photo_2026-09-10_23-05-38.jpg', alt: 'Gift photo 4' },
-  { src: '/photo_2026-09-10_18-10-33.jpg', alt: 'Gift photo 5' },
+  { src: '/photo_2026-09-13_01-03-27.jpg', alt: 'Gift photo 1' },
+  { src: '/photo_2026-09-13_01-03-29.jpg', alt: 'Gift photo 2' },
+  { src: '/photo_2026-09-13_01-03-31.jpg', alt: 'Gift photo 3' },
+  { src: '/photo_2026-09-13_01-03-36.jpg', alt: 'Gift photo 4' },
 ];
 
 export function GiftReveal() {
@@ -113,7 +112,7 @@ export function GiftReveal() {
         </div>
       )}
 
-      <audio ref={audioRef} src="/Elohim.mp3" preload="auto" />
+      <audio ref={audioRef} src="/እስሩ የክርስቶስ.mp3" preload="auto" />
 
       {isOpen && (
         <div
@@ -281,7 +280,7 @@ export function GiftReveal() {
 
                 <div className="flex items-center justify-center gap-2 py-3 shrink-0 border-t border-white/10">
                   <span className="material-symbols-outlined text-[#c41425] text-base animate-pulse" style={{ fontVariationSettings: "'FILL' 1" }}>music_note</span>
-                  <span className="text-xs text-[#FCF6F5]/50 font-medium">Now playing: Elohim</span>
+                  <span className="text-xs text-[#FCF6F5]/50 font-medium">Now playing</span>
                 </div>
               </>
             )}

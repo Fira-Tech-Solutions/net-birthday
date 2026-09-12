@@ -2,7 +2,7 @@ export function Hero() {
   return (
     <section className="relative h-dvh overflow-hidden" style={{ position: 'sticky', top: 0, zIndex: 0 }}>
       <img
-        src="/photo_2026-09-10_18-10-33.jpg"
+        src="/photo_2026-09-13_01-03-29.jpg"
         alt="Kiya"
         className="absolute inset-0 w-full h-full object-cover"
       />
